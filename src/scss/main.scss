@@ -1,0 +1,19 @@
+
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+//base
+@import './base/reset';
+
+//layout - bigger components like(navbar,fotter etc..)
+@import './layout/navbar';
+@import './layout/footer';
+
+//components - smaller components like(buttons, forms etc..)
+@import './components/button1';
+
+//scss specific to only one page
+@import './pages/home';
+@import './pages/hakaton';
+@import './pages/tech';
+@import './pages/prijava';  

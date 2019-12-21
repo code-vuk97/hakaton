@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html{
+
+    //font-size: 62.5%; ako cete da koristite rem/em umesto px onda treba ovo
+    box-sizing: border-box;
+}
+
